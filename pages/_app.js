@@ -4,7 +4,7 @@ import Head from 'next/head';
 import '@/styles/globals.css';
 
 //components
-import Header from '../components/Header';
+import Header from '@/components/Header';
 
 //fonts
 import { Montserrat } from 'next/font/google';
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
 			<main
 				className={`${montserrat.variable} font-sans bg-light w-full min-h-screen`}
 			>
-				<Header />
+        <Header />
 				<Component {...pageProps} />
 			</main>
 		</>
