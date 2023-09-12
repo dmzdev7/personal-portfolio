@@ -8,7 +8,7 @@ const Header = () => {
 		<header className="w-full px-32 py-6 font-medium flex justify-between items-center">
 			<Link href={'/'}>
 				<Image
-					src={'/imgs/svgs/logo.svg'}
+					src={'/imgs/svg/logo.svg'}
 					width={220}
 					height={48}
 					alt="Dmzdev"
