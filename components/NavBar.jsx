@@ -8,8 +8,7 @@ import {
 	HiUser,
 	HiViewColumns,
 	HiRectangleGroup,
-	// HiChatBubbleBottomCenterText,
-	HiEnvelope,
+	// HiEnvelope,
 } from 'react-icons/hi2';
 
 //navData
@@ -18,7 +17,7 @@ export const navData = [
 	{ name: 'About', path: '/about', icon: <HiUser /> },
 	{ name: 'Services', path: '/services', icon: <HiRectangleGroup /> },
 	{ name: 'Projects', path: '/projects', icon: <HiViewColumns /> },
-	{ name: 'Contact', path: '/contact', icon: <HiEnvelope /> },
+	// { name: 'Contact', path: '/contact', icon: <HiEnvelope /> },
 ];
 
 const NavBar = () => {
@@ -36,7 +35,7 @@ const NavBar = () => {
 							link.path === pathName && 'text-tertiary'
 						} hover:text-tertiary`}
 					>
-						<div className="flex items-center xl:justify-center gap-x-2">
+						<div className="flex items-center justify-center gap-x-1">
 							{link.icon}
 							{link.name}
 						</div>
