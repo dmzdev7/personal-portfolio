@@ -36,8 +36,7 @@ const NavBar = () => {
 						} hover:text-tertiary`}
 					>
 						<div className="flex items-center justify-center gap-x-1">
-							{link.icon}
-							{link.name}
+							{link.icon} {link.name}
 						</div>
 					</Link>
 				);
