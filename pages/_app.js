@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 //css
-import '@/src/styles/globals.css';
+import '@/styles/globals.css';
 
 //components
 import Header from '../components/Header';
