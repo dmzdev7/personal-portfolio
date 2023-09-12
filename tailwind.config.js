@@ -1,7 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-// const { fontFamily } = require('tailwindcss/defaultTheme')
-
 module.exports = {
 	content: [
 		'./app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -13,9 +11,9 @@ module.exports = {
 	],
 	theme: {
 		container: {
-			padding: {
-				DEFAULT: '15px',
-			},
+			// padding: {
+			// 	DEFAULT: '15px',
+			// },
 		},
 		screens: {
 			sm: '640px',
@@ -29,7 +27,7 @@ module.exports = {
 				light: '#F7F4F3',
 				primary: '#131424',
 				secondary: '#393A47',
-				redEngine: '#DB162F',
+				tertiary: '#DB162F',
 				// process: '#0CAADC',
 				// poppy: '#DF2935',
 				// aero: '#11B5E4',
@@ -37,7 +35,6 @@ module.exports = {
 			},
 			fontFamily: {
 				mont: [`var(--font-mont)`, 'sans-serif'],
-				sora: [`var(--font-sora)`, 'sans-serif'],
 			},
 			backgroundImage: {
 				// site: 'url("/images/svgs/site-bg.svg")',

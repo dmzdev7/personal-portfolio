@@ -33,8 +33,8 @@ const NavBar = () => {
 						key={index}
 						href={link.path}
 						className={`${
-							link.path === pathName && 'text-redEngine'
-						} hover:text-redEngine`}
+							link.path === pathName && 'text-tertiary'
+						} hover:text-tertiary`}
 					>
 						<div className="flex items-center xl:justify-center gap-x-2">
 							{link.icon}
