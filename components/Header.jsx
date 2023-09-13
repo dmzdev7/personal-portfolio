@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+
+//components
 import NavBar from './NavBar';
 
 const Header = () => {
 	return (
-		<header className="w-full px-32 py-6 font-medium flex justify-between items-center">
+		<header className="flex justify-between items-center w-full px-32 py-6 font-medium">
 			<Link href={'/'}>
 				<Image
 					src={'/imgs/svg/logo.svg'}

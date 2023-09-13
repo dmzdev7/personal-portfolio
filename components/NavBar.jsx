@@ -25,7 +25,7 @@ const NavBar = () => {
 	const pathName = router.pathname;
 
 	return (
-		<nav className="flex items-center xl:justify-center gap-x-4">
+		<nav className="flex items-center justify-center gap-x-4">
 			{navData.map((link, index) => {
 				return (
 					<Link
