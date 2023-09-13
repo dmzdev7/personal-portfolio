@@ -57,7 +57,6 @@ const Socials = () => {
 			</Link>
 			<Link
 				href={'mailto:davidf.martinez.br@gmail.com'}
-				as={'mailto:davidf.martinez.br@gmail.com'}
 				target={'_blank'}
 				className="hover:text-tertiary transition-all duration-300"
 			>
